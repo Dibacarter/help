@@ -5,66 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khalil</title>
 
-
-<style>
+    <style>
         @font-face {
-    font-family: 'BB Manual Mono Pro TX';
-    src: url('/BBManualMonoProTX-Regular.woff2') format('woff2');
-}
+            font-family: 'BB Manual Mono Pro TX';
+            src: url('/BBManualMonoProTX-Regular.woff2') format('woff2');
+        }
+
         body {
             font-family: 'BB Manual Mono Pro TX';
             font-size: 10px;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .title {
+            font-size: 27px;
+            margin: 0;
+            color: black;
+            font-weight: 600;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 20px 40px;
+            font-size: 15px;
+            color: #0000fe;
+        }
+
+        .links a {
+            margin-bottom: 20px;
+            text-decoration: underline;
+            text-decoration-offset: 0.2em;
+            color: #0000fe;
+        }
+
+        .content {
+            padding: 0 40px;
+            font-size: 14px;
         }
     </style>
-
-
-<style>
-/* Custom font */
-@import url('https://help.khaliiil.com/BBManualMonoProTX-Regular.woff2');
-
-body {
-font-family: 'BB Manual Mono Pro TX';
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    text-align: center;
-    margin-top: 50px;
-}
-
-.title {
-    font-size: 27px;
-    margin: 0;
-    color:black;
-    font-weight:600;
-}
-
-.links {
-    display: flex;
-    justify-content: flex-start;
-    padding: 20px 40px;
-    font-size: 15px;
-    color:#0000fe;
-}
-
-.links a {
-    margin-right: 20px;
-    text-decoration: none;
-    color: blue;
-    font-size: 15px;
-    color:black;
-    text-decoration:underline;
-    text-decoration-offset: 0.2em;
-}
-
-.content {
-    padding: 0 40px;
-    font-size: 14px;
-}
-</style>
-
-
 </head>
 <body>
     <header>
@@ -73,7 +59,7 @@ header {
     
     <main>
         <nav class="links">
-            <a href="https://help.khaliiil.com/terms-conditions">TERMS & CONDITIONS</a><br><br>
+            <a href="https://help.khaliiil.com/terms-conditions">TERMS & CONDITIONS</a>
             <a href="https://help.khaliiil.com/privacy-policy">PRIVACY POLICY</a>
         </nav>
         
@@ -81,6 +67,5 @@ header {
             <p>This is a sample paragraph. It is smaller in font size than the title and has custom padding.</p>
         </section>
     </main>
-    
 </body>
 </html>
