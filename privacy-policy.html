@@ -14,6 +14,10 @@
   src: url('BBManualMonoProTX-Regular.woff2') format('woff2');
   /* Additional font properties (e.g., font-weight, font-style) can be specified here */
 }
+        @font-face {
+    font-family: 'BBManualMonoProTX';
+    src: url('BBManualMonoProTX-SemiBold.woff2') format('woff2')
+}
 body {
     font-family: 'BB Manual Mono Pro TX';
     background-color: white;
@@ -211,6 +215,7 @@ margin-bottom: 2px;
             text-align: center;
             font-size: 31px;
                   color:black;
+                      font-family: 'BBManualMonoProTX';
         }
         .tr {
             padding: 0 20%; /* Adjust the padding as needed */
@@ -234,7 +239,7 @@ margin-bottom: 2px;
     padding-left: 40px; /* Spacing on the left side */
     padding-right: 40px; /* Spacing on the right side */
     font-size: 13px;
-      font-family: 'BB Manual Mono Pro TX';
+    font-family: 'BBManualMonoProTX';
       color:black;
       font-weight: 900;
       /* Ensuring boldness even when zoomed in */
