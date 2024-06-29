@@ -247,8 +247,23 @@ margin-bottom: 2px;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
   }
+  
+      @media screen and (max-width: 10000px) and (min-width:800px) {
+    .paragraph {
+      padding-left: 200px; /* Remove spacing on smaller screens */
+      padding-right: 200px; /* Remove spacing on smaller screens */
+      font-size: 15px;
+    }
+    .tit {
+      padding-left: 200px; /* Remove spacing on smaller screens */
+      padding-right: 200px; /* Remove spacing on smaller screens */
+      font-size: 16px;
+      font-family: 'BBManualMonoProTX';
+      font-weight: 400;
+    }
+}
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 670px) {
     .paragraph {
       padding-left: 12px; /* Remove spacing on smaller screens */
       padding-right: 12px; /* Remove spacing on smaller screens */
